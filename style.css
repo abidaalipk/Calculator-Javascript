@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: sandybrown;
+}
+
+.formStyle{
+    width: 205px;
+    height: auto;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: .2rem;
+    border: 5px solid blue;
+    background-color: white;
+}
+
+input{
+    width: 40px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    box-shadow: 0px 5px 3px 24px transparent;
+}
+
+#clear{
+    width: 196px;
+    padding: 0.5rem 1rem;
+    border: transparent;
+    font-size: 1.5rem;
+    color: white;
+}
+
+#answerStyle{
+   width: 196px;
+   padding: 0.5rem 1rem;
+   border: transparent;
+   font-size: 1.5rem;
+   color: white;
+   
+}
+
+.style{
+    padding: 0.2rem ;
+    width: 62px;
+    font-size: 1.5rem;
+    border: transparent;
+    border-radius: .1rem;
+    color: white;
+}
+
+@media(max-width:786px){
+
+    .formStyle{
+        width: 300px;
+        margin-top: 30%;
+    }
+    #clear{
+        width: 290px;
+        padding: 0.8rem 1rem;
+        font-size: 1.85rem;
+    }
+    
+    #answerStyle{
+       width: 290px;
+       padding: 0.8rem 1rem;
+       font-size: 1.85rem;
+    }
+    
+    .style{
+        padding: 0.5rem ;
+        width: 93.7px;
+        font-size: 1.85rem;
+       
+    }
+}
